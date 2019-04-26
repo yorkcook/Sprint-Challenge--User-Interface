@@ -120,18 +120,36 @@ p {
 	  background: white;
   }
 
-footer  {
+footer {
+	background: white;
+	margin-bottom: 20px;
+
+}
+  
+	.bottomlinks {
+	  background: black;
+	  display: flex;
+	  justify-content: center;
+	  padding: 20px;
+  }
+
+  .bottomlinks a {
+	  margin: 10px;
+	  color: white;
+  }
+/*footer  {
 	background: black;
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
 	padding: 50px;
-}
+} */
 
-.footer a {
+/*.footer a {
+	display: inline-center;
+	align-content: center;
 	margin: 50px;
-	padding: 50px;
-	color: white;
+	color: white; */
 }
 
 img {
