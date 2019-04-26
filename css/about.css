@@ -69,21 +69,26 @@ p {
 .navigation {
     display: flex;
     justify-content: space-between; 
-    margin-top: 25px;
+	margin-top: 10px;
+	margin-bottom: 25px;
     padding: 0px 0px 25px;
     text-color: black;
 }
 
 .navigation a {
-    margin: 50px;
+	margin: 50px;
+	color: black;
 }
 
 .jumbo {
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+	justify-content: center;*/
+	display: inline-block;
+	align: center;
+	margin-left: 400px;
 	padding: 20px;
-	width: 50px;
-	length: 100px;
+	width: 500px;
+	length: 1000px;
 }
 
 .about {
@@ -119,7 +124,6 @@ footer  {
 	background: black;
 	display: flex;
 	justify-content: center;
-	text-decoration-color: white;
 	margin-top: 50px;
 	padding: 50px;
 }
@@ -127,6 +131,7 @@ footer  {
 .footer a {
 	margin: 50px;
 	padding: 50px;
+	color: white;
 }
 
 img {
@@ -138,3 +143,4 @@ img {
 .together {
 	margin: 50px;
 }
+
