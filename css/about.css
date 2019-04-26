@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+body {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between; 
@@ -76,7 +81,7 @@ p {
 }
 
 .navigation a {
-	margin: 50px;
+	margin: 20px;
 	color: black;
 }
 
@@ -85,8 +90,8 @@ p {
 	justify-content: center;*/
 	display: inline-block;
 	align: center;
-	margin-left: 400px;
-	padding: 20px;
+	/*margin-left: 400px;*/
+	padding: 20px; 
 	width: 500px;
 	length: 1000px;
 }

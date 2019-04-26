@@ -38,7 +38,7 @@ Semantic HTML is an organized way of writing your HTML that is logical and helps
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Display: inline allows there to be width and height to be set. Display block always starts on a new line.
+Display: inline-block allows there to be width and height to be set. Display block always starts on a new line.
 
 3. What are the 4 areas of the box model?
 
