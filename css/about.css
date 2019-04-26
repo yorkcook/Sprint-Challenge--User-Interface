@@ -90,6 +90,7 @@ p {
 	display: flex:
 	justify-content: center;
 	padding: 50px;
+	border-bottom: 2px dashed black;
 }
 
 .boxes {
@@ -101,7 +102,8 @@ p {
 .boxes div {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid black;
+	/*border: 2px solid black;*/
+	border-bottom: 2px dashed black;
     width: 45%;
     padding: 20px;
     margin: 10px;
@@ -118,10 +120,13 @@ footer  {
 	display: flex;
 	justify-content: center;
 	text-decoration-color: white;
+	margin-top: 50px;
+	padding: 50px;
 }
 
 .footer a {
 	margin: 50px;
+	padding: 50px;
 }
 
 img {
@@ -130,8 +135,6 @@ img {
 	bottom-margin: 50px;
 }
 
-/*.together {
-	display: flex;
-	justify-content: center;
-	padding: 50px;
-}*/
+.together {
+	margin: 50px;
+}
