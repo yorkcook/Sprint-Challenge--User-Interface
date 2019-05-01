@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+body {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between; 
+	margin-top: 10px;
+	margin-bottom: 25px;
+    padding: 0px 0px 25px;
+    text-color: black;
+}
+
+.navigation a {
+	margin: 20px;
+	color: black;
+}
+
+.jumbo {
+    /*display: flex;
+	justify-content: center;*/
+	display: inline-block;
+	align: center;
+	/*margin-left: 400px;*/
+	padding: 20px; 
+	width: 500px;
+	length: 1000px;
+}
+
+.about {
+	display: flex:
+	justify-content: center;
+	padding: 50px;
+	border-bottom: 2px dashed black;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px;
+}
+
+.boxes div {
+    display: flex;
+    flex-wrap: wrap;
+	/*border: 2px solid black;*/
+	border-bottom: 2px dashed black;
+    width: 37%;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .boxes button {
+	  margin-top 20px;
+	  padding: 10px;
+	  background: white;
+  }
+
+footer {
+	background: white;
+	margin-bottom: 20px; 
+
+}
+  
+	.bottomlinks {
+	  background: black;
+	  display: flex;
+	  justify-content: center;
+	  padding: 20px;
+  }
+
+  .bottomlinks a {
+	  margin: 10px;
+	  color: white;
+  }
+/*footer  {
+	background: black;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	padding: 50px;
+} */
+
+/*.footer a {
+	display: inline-center;
+	align-content: center;
+	margin: 50px;
+	color: white; */
+}
+
+img {
+	width: 500px;
+	length: 500px;
+	bottom-margin: 50px;
+}
+
+.together {
+	margin: 50px;
+}
+
